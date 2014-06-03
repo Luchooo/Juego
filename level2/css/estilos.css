@@ -1,0 +1,203 @@
+
+#canasta {
+width: 80px;
+height:60px;
+position:relative;
+left:200px;
+top:-137px;
+}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 22px #2f6627;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
+.myButton{
+	position:relative;
+	left:750px;
+	top:-660px;
+}
+
+
+
+
+.myButton2 {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #455bc7), color-stop(1, #1a2ad9));
+	background:-moz-linear-gradient(top, #455bc7 5%, #1a2ad9 100%);
+	background:-webkit-linear-gradient(top, #455bc7 5%, #1a2ad9 100%);
+	background:-o-linear-gradient(top, #455bc7 5%, #1a2ad9 100%);
+	background:-ms-linear-gradient(top, #455bc7 5%, #1a2ad9 100%);
+	background:linear-gradient(to bottom, #455bc7 5%, #1a2ad9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#455bc7', endColorstr='#1a2ad9',GradientType=0);
+	background-color:#455bc7;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:1px solid #939dc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 22px #659bd6;
+}
+.myButton2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1a2ad9), color-stop(1, #455bc7));
+	background:-moz-linear-gradient(top, #1a2ad9 5%, #455bc7 100%);
+	background:-webkit-linear-gradient(top, #1a2ad9 5%, #455bc7 100%);
+	background:-o-linear-gradient(top, #1a2ad9 5%, #455bc7 100%);
+	background:-ms-linear-gradient(top, #1a2ad9 5%, #455bc7 100%);
+	background:linear-gradient(to bottom, #1a2ad9 5%, #455bc7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a2ad9', endColorstr='#455bc7',GradientType=0);
+	background-color:#1a2ad9;
+}
+.myButton2{
+	position:relative;
+	left:635px;
+	top:-580px;
+}
+
+
+
+
+.myButton3 {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d2eb15), color-stop(1, #b9d119));
+	background:-moz-linear-gradient(top, #d2eb15 5%, #b9d119 100%);
+	background:-webkit-linear-gradient(top, #d2eb15 5%, #b9d119 100%);
+	background:-o-linear-gradient(top, #d2eb15 5%, #b9d119 100%);
+	background:-ms-linear-gradient(top, #d2eb15 5%, #b9d119 100%);
+	background:linear-gradient(to bottom, #d2eb15 5%, #b9d119 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2eb15', endColorstr='#b9d119',GradientType=0);
+	background-color:#d2eb15;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:1px solid #f2fa08;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 22px #b4b83f;
+}
+.myButton3:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b9d119), color-stop(1, #d2eb15));
+	background:-moz-linear-gradient(top, #b9d119 5%, #d2eb15 100%);
+	background:-webkit-linear-gradient(top, #b9d119 5%, #d2eb15 100%);
+	background:-o-linear-gradient(top, #b9d119 5%, #d2eb15 100%);
+	background:-ms-linear-gradient(top, #b9d119 5%, #d2eb15 100%);
+	background:linear-gradient(to bottom, #b9d119 5%, #d2eb15 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b9d119', endColorstr='#d2eb15',GradientType=0);
+	background-color:#b9d119;
+}
+.myButton3{
+	position:relative;
+	left:505px;
+	top:-500px;
+}
+
+#demo{
+position:relative;
+left:720px;
+top:-700px;
+font-family: 'times new roman', times, serif;
+font-size: 35px;
+font-weight: bold;
+letter-spacing: 4.4pt;
+word-spacing: 30pt;
+border:2px solid #29a1f1;
+width:175px;
+border-radius:12px;
+}
+
+
+.buttons{
+	padding: 10px 0;
+	text-align: right;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.button {
+	border-top: 1px solid;
+   padding: 7px 0 8px 0;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #fff;
+   font-weight: bold;
+   font-size: 11px;
+   text-decoration: none;
+   vertical-align: middle;
+   display: inline-block;
+   width:120px;
+   text-align: center;
+   text-shadow: 0 -1px 0 #4c9021;
+   line-height: 1;
+}
+
+
+
+
+.button.red{
+		position:relative;
+left:370px;
+top:-360px;
+   border-top-color: #ee432e;
+   background: #891100;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ee432e), to(#891100));
+   background: -webkit-linear-gradient(top, #ee432e, #891100);
+   background: -moz-linear-gradient(top, #ee432e, #891100);
+   background: -ms-linear-gradient(top, #ee432e, #891100);
+   background: -o-linear-gradient(top, #ee432e, #891100);
+}
+
+.button.red:hover {
+   border-top-color: #C52F1B;
+   background: #C52F1B;
+}
+.button.red:active {
+   border-top-color: #BD2B18;
+   background: #BD2B18;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica SVG</title>
+	<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+<body>
+<svg version="1.2" id="untitled" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <path d="M87,85 L84,143L194,138C194,138 304,74 258,146C212,218 189,245 115,206C41,167 -37,276 102,292C241,308 266,123 289,253C312,383 321,47 376,140C431,233 353,373 457,301C561,229 153,284 171,364L161,482" id="svg_1" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:#537EFB;fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:7.1;stroke-miterlimit:3;stroke-linecap:round;stroke-linejoin:round;"/>
+  <path d="M313,89 C313,89 356,166 301,167C246,168 -107,34 41,172C189,310 317,291 353,237C389,183 370,9 412,125C454,241 457,423 389,357C321,291 330,127 227,218C124,309 8,198 77,301C146,404 60,441 188,376C316,311 473,274 468,339L467,479" id="svg_2" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:#436DFB;fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:7.5;stroke-miterlimit:3;stroke-linecap:none;stroke-linejoin:round;"/>
+  <path d="M583,89 C594,151 687,143 583,157C479,171 254,369 149,180C44,-9 -31,307 36,334C103,361 286,417 307,369C328,321 468,177 531,249C594,321 470,410 378,409C286,408 303,440 305,471" id="svg_3" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:#4080F7;fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:7.8;stroke-miterlimit:3;stroke-linecap:none;stroke-linejoin:round;"/>
+
+
+ <circle cx="" cy="" r="10" fill="green">
+<animate dur="3s" attributeName="r" values="10; 35; 10" repeatCount="indefinite" />
+        <!-- Asignar animacion -->
+        <animateMotion repeatCount="1" dur="12s" fill="freeze" >
+           <mpath xlink:href="#svg_3"/>
+                       </animateMotion>	
+          </circle>
+
+
+
+	<!-- Creacion de circulo2 -->
+ 
+  <circle cx="" cy="" r='10' fill="yellow" >
+  <animate id='animacion1' attributeName="r" dur="3s" values="10; 35; 10" repeatCount="indefinite"/> 
+        <!-- Asignar animacion -->
+        <animateMotion  repeatCount="1" dur="12s" fill="freeze" >
+           <mpath id="ruta2" xlink:href="#svg_1"/>
+                   </animateMotion>	
+          </circle>
+
+           <circle cx="" cy="" r="10" fill="blue">
+
+<animate dur="3s" attributeName="r" values="10; 35; 10" repeatCount="indefinite" />
+        <!-- Asignar animacion -->
+        <animateMotion repeatCount="1" dur="12s" fill="freeze">
+           <mpath xlink:href="#svg_2"/>
+                       </animateMotion>	
+          </circle>
+
+
+
+</svg>
+
+<img id="canasta" src="../Imagenes/canasta.png"  >
+<p id="demo" > </p>
+
+
+<button id='boton1' class="myButton">  Verde </button>
+<button id='boton2' class="myButton2"> Azul </button>
+<button id='boton3' class="myButton3"> Amarillo </button>
+
+
+<a href="index.html" class="button red" id="Again">Again</a>
+
+
+
+</body>
+</html>

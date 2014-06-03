@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica SVG</title>
+	<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+<body>
+<svg version="1.2" id="untitled" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="Gradient-2" gradientUnits="userSpaceOnUse">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0.9823529411764705"/>
+      <stop style="stop-color:#FFFFFF;stop-opacity:1" offset="1"/>
+    </linearGradient>
+    <linearGradient id="Gradient-3" gradientUnits="userSpaceOnUse">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0.9941176470588236"/>
+      <stop style="stop-color:#FFFFFF;stop-opacity:1" offset="1"/>
+    </linearGradient>
+    <linearGradient id="Gradient-4" gradientUnits="userSpaceOnUse">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0.9941176470588236"/>
+      <stop style="stop-color:#FFFFFF;stop-opacity:1" offset="1"/>
+    </linearGradient>
+  </defs>
+  <path d="M251,76 L250,158L74,159L228,259L359,200L353,392L116,378L112,495" id="svg_1" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:url(#Gradient-2);fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:10;stroke-miterlimit:4.5;stroke-linecap:round;stroke-linejoin:round;"/>
+  <path d="M433,77 L434,147L82,258L459,255L442,387L69,308L62,428L466,424L464,484" id="svg_2" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:url(#Gradient-3);fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:9.4;stroke-miterlimit:3;stroke-linecap:round;stroke-linejoin:round;"/>
+  <path d="M57,67 L57,204L501,198L521,328L235,305L272,493" id="svg_3" transform="matrix(1,0,0,1,0,0)" style="opacity:1;stroke:url(#Gradient-4);fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:9.2;stroke-miterlimit:3;stroke-linecap:round;stroke-linejoin:round;"/>
+
+
+ <circle cx="" cy="" r="10" fill="green">
+<animate dur="3s" attributeName="r" values="10; 35; 10" repeatCount="indefinite" />
+        <!-- Asignar animacion -->
+        <animateMotion repeatCount="1" dur="12s" fill="freeze" >
+           <mpath xlink:href="#svg_1"/>
+                       </animateMotion>	
+          </circle>
+
+
+
+	<!-- Creacion de circulo2 -->
+ 
+  <circle cx="" cy="" r='10' fill="yellow" >
+  <animate id='animacion1' attributeName="r" dur="3s" values="10; 35; 10" repeatCount="indefinite"/> 
+        <!-- Asignar animacion -->
+        <animateMotion  repeatCount="1" dur="12s" fill="freeze" >
+           <mpath id="ruta2" xlink:href="#svg_2"/>
+                   </animateMotion>	
+          </circle>
+
+           <circle cx="" cy="" r="10" fill="blue">
+
+<animate dur="3s" attributeName="r" values="10; 35; 10" repeatCount="indefinite" />
+        <!-- Asignar animacion -->
+        <animateMotion repeatCount="1" dur="12s" fill="freeze">
+           <mpath xlink:href="#svg_3"/>
+                       </animateMotion>	
+          </circle>
+
+
+
+</svg>
+
+<img id="canasta" src="../Imagenes/canasta.png"  >
+<p id="demo" > </p>
+
+
+<button id='boton1' class="myButton">  Verde </button>
+<button id='boton2' class="myButton2"> Azul </button>
+<button id='boton3' class="myButton3"> Amarillo </button>
+
+<a href="../level2/index.html" class="button green" id="startbtn">Next Level</a>
+<a href="index.html" class="button red" id="Again">Again</a>
+
+
+
+</body>
+</html>
